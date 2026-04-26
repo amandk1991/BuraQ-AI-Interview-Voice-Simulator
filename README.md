@@ -68,32 +68,8 @@ At the end of the session, Buraq generates a performance report with:
 ---
 
 ## 🧩 Architecture Diagram  
-           ┌────────────────────────┐
-           │        User             │
-           │  (Mic & Headphones)     │
-           └──────────┬─────────────┘
-                      │
-                      ▼
-        ┌──────────────────────────┐
-        │   Speech-to-Text (STT)   │
-        │   Whisper / OpenAI STT   │
-        └──────────┬──────────────┘
-                   │ (Text Input)
-                   ▼
-     ┌──────────────────────────────────┐
-     │       LLM Dialogue Engine        │
-     │  (Understands + Generates Q&A)   │
-     └──────────┬───────────────────────┘
-                │ (Response Text)
-                ▼
-     ┌──────────────────────────────────┐
-     │   Text-to-Speech (TTS Engine)    │
-     │  OpenAI Realtime / Voice Models  │
-     └──────────┬───────────────────────┘
-                │ (Audio Output)
-                ▼
-           ┌────────────────────────┐
-           │        User             │
-           └────────────────────────┘
+        
+
+![Architecture Diagram](Architectural%20Diagram.png)
 
 
