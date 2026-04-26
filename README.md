@@ -70,6 +70,6 @@ At the end of the session, Buraq generates a performance report with:
 ## 🧩 Architecture Diagram  
         
 
-![Architecture Diagram](Architectural%20Diagram.png)
+![Architecture Diagram](Architecture Diagram.png)
 
 
